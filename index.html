@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arsenal Vibes With Tailwind CSS</title>
 
     <!-- TailwindCSS CDN Link -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
 <body>
-
-    <!-- Create a red text using tailwindcss -->
-    <p class="text-red-400">Hello</p>
     
+    <div class="container mx-auto px-20">
+
+        <!-- Header -->
+        <header class="border-b bg-red-600 py-3">
+            <div class="flex flex-row  justify-between align-center">
+                <div class="col-span-2 pt-1 m-2">
+                    <a href="#" class="bg-black text-white p-2 text-sm mx-6 my-2 rounded">Subscribe</a>
+                </div>
+
+                <div class="col-span-2 text-center text-3xl mt-1">
+                    <a class="no-underline font-bold text-white" href="#">Arsenal Vibes</a>
+                </div>
+
+                <div class="col-span-2 flex justify-end align-center mt-3 mx-8">
+                    <a href="" class="link-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-6 mt-2" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                    </a>
+                    <a href="#" class="bg-white text-red-600 py-2 px-3 mb-1 text-sm rounded hover:bg-black hover:text-white">Sign Up</a>
+                </div>
+
+            </div>
+        </header>
+        
+    </div>
+
 </body>
 </html>
